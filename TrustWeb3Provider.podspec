@@ -16,13 +16,13 @@ Pod::Spec.new do |s|
   The magic behind the dApps browsers
                        DESC
 
-  s.homepage         = 'https://github.com/TrustWallet/trust-web3-provider'
+  s.homepage         = 'https://github.com/Creature1o1/trust-web3-provider'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'hewigovens' => 'hewigovens@gmail.com', 'Viktor Radchenko' => 'vikmeup' }
-  s.source           = { :git => 'https://github.com/TrustWallet/trust-web3-provider.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Creature1o1/trust-web3-provider.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/trustwalletapp'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.2'
 
   s.resource_bundles = {
     'TrustWeb3Provider' => ['dist/trust-min.js']
